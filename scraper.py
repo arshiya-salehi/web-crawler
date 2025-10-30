@@ -1,4 +1,6 @@
 import re
+import json
+import time
 from urllib.parse import urlparse, urljoin, urldefrag
 from collections import Counter, defaultdict
 from bs4 import BeautifulSoup
@@ -61,6 +63,30 @@ _MAX_BYTES = 2 * 1024 * 1024  # 2MB cap to avoid very large files of low value
 _MIN_TEXT_WORDS = 50          # below this, likely low-information
 _MIN_UNIQUE_RATIO = 0.2       # unique/total words ratio threshold
 _SIMHASH_HAMMING_MAX = 3      # near-duplicate tolerance (64-bit simhash)
+
+# Persistence cadence
+_LAST_PERSIST_TS = 0.0
+_PAGES_SINCE_PERSIST = 0
+
+def _persist_analytics(now_ts: float):
+    global _LAST_PERSIST_TS, _PAGES_SINCE_PERSIST
+    # Write at most every 30s or every 50 new pages (whichever comes first)
+    if (now_ts - _LAST_PERSIST_TS) < 30.0 and _PAGES_SINCE_PERSIST < 50:
+        return
+    try:
+        data = {
+            "unique_url_count": len(_seen_pages),
+            "longest_page": _longest_page,
+            "top_words": _word_freq.most_common(100),
+            "subdomains": {k: len(v) for k, v in sorted(_subdomain_to_pages.items())},
+        }
+        with open("analytics.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        _LAST_PERSIST_TS = now_ts
+        _PAGES_SINCE_PERSIST = 0
+    except Exception:
+        # Best-effort; ignore persistence failures
+        pass
 
 
 def _defragment(url: str) -> str:
@@ -178,6 +204,10 @@ def extract_next_links(url, resp):
             netloc = parsed.netloc.lower()
             if netloc.endswith(".uci.edu") or netloc == "uci.edu":
                 _subdomain_to_pages[netloc].add(actual_url)
+            # Increment page counter and persist periodically
+            global _PAGES_SINCE_PERSIST
+            _PAGES_SINCE_PERSIST += 1
+            _persist_analytics(time.time())
 
         # Extract and normalize links
         links = []
@@ -234,6 +264,10 @@ def is_valid(url):
 
         # 2) Query traps
         query = (parsed.query or "").lower()
+        # DokuWiki variants (low-value): skip doku.php when control params present
+        if "doku.php" in (path.lower()):
+            if re.search(r"(?:^|[&])(do|idx|rev)=", query):
+                return False
         if query.count("&") + (1 if query else 0) > 5:
             return False
         trap_hit = any(k in query for k in _TRAP_KEYWORDS) or any(k in path.lower() for k in _TRAP_KEYWORDS)

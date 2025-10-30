@@ -1,0 +1,502 @@
+{
+  "unique_url_count": 6772,
+  "longest_page": {
+    "url": "http://www.ics.uci.edu/~eppstein/junkyard/all.html",
+    "word_count": 15828
+  },
+  "top_words": [
+    [
+      "research",
+      23832
+    ],
+    [
+      "computer",
+      14368
+    ],
+    [
+      "student",
+      14305
+    ],
+    [
+      "ics",
+      14150
+    ],
+    [
+      "information",
+      13444
+    ],
+    [
+      "software",
+      12937
+    ],
+    [
+      "data",
+      12318
+    ],
+    [
+      "students",
+      12085
+    ],
+    [
+      "uci",
+      12036
+    ],
+    [
+      "may",
+      11075
+    ],
+    [
+      "will",
+      10983
+    ],
+    [
+      "ramesh",
+      10279
+    ],
+    [
+      "can",
+      10128
+    ],
+    [
+      "informatics",
+      9907
+    ],
+    [
+      "graduate",
+      9880
+    ],
+    [
+      "undergraduate",
+      9785
+    ],
+    [
+      "engineering",
+      9680
+    ],
+    [
+      "events",
+      9647
+    ],
+    [
+      "us",
+      9312
+    ],
+    [
+      "news",
+      8943
+    ],
+    [
+      "science",
+      8710
+    ],
+    [
+      "projects",
+      8276
+    ],
+    [
+      "june",
+      7920
+    ],
+    [
+      "people",
+      7819
+    ],
+    [
+      "university",
+      7789
+    ],
+    [
+      "september",
+      7714
+    ],
+    [
+      "courses",
+      7667
+    ],
+    [
+      "search",
+      7563
+    ],
+    [
+      "one",
+      7550
+    ],
+    [
+      "july",
+      7540
+    ],
+    [
+      "learning",
+      7512
+    ],
+    [
+      "irvine",
+      7497
+    ],
+    [
+      "october",
+      7444
+    ],
+    [
+      "contact",
+      7314
+    ],
+    [
+      "august",
+      7238
+    ],
+    [
+      "time",
+      7211
+    ],
+    [
+      "department",
+      7207
+    ],
+    [
+      "march",
+      7188
+    ],
+    [
+      "april",
+      7180
+    ],
+    [
+      "current",
+      7156
+    ],
+    [
+      "november",
+      7127
+    ],
+    [
+      "past",
+      7072
+    ],
+    [
+      "january",
+      6982
+    ],
+    [
+      "december",
+      6951
+    ],
+    [
+      "february",
+      6950
+    ],
+    [
+      "ph",
+      6943
+    ],
+    [
+      "computing",
+      6831
+    ],
+    [
+      "books",
+      6812
+    ],
+    [
+      "design",
+      6652
+    ],
+    [
+      "new",
+      6581
+    ],
+    [
+      "read",
+      6537
+    ],
+    [
+      "support",
+      6400
+    ],
+    [
+      "wics",
+      6249
+    ],
+    [
+      "systems",
+      6141
+    ],
+    [
+      "code",
+      5978
+    ],
+    [
+      "faculty",
+      5930
+    ],
+    [
+      "community",
+      5878
+    ],
+    [
+      "uc",
+      5822
+    ],
+    [
+      "program",
+      5707
+    ],
+    [
+      "project",
+      5624
+    ],
+    [
+      "pm",
+      5481
+    ],
+    [
+      "alumni",
+      5454
+    ],
+    [
+      "also",
+      5450
+    ],
+    [
+      "jain",
+      5446
+    ],
+    [
+      "vision",
+      5263
+    ],
+    [
+      "profiles",
+      5058
+    ],
+    [
+      "process",
+      4999
+    ],
+    [
+      "work",
+      4923
+    ],
+    [
+      "using",
+      4911
+    ],
+    [
+      "management",
+      4869
+    ],
+    [
+      "week",
+      4837
+    ],
+    [
+      "application",
+      4823
+    ],
+    [
+      "spotlights",
+      4626
+    ],
+    [
+      "use",
+      4597
+    ],
+    [
+      "future",
+      4516
+    ],
+    [
+      "school",
+      4489
+    ],
+    [
+      "game",
+      4465
+    ],
+    [
+      "home",
+      4460
+    ],
+    [
+      "master",
+      4442
+    ],
+    [
+      "post",
+      4328
+    ],
+    [
+      "first",
+      4219
+    ],
+    [
+      "social",
+      4175
+    ],
+    [
+      "machine",
+      4153
+    ],
+    [
+      "conference",
+      4119
+    ],
+    [
+      "course",
+      4112
+    ],
+    [
+      "edu",
+      4087
+    ],
+    [
+      "set",
+      4051
+    ],
+    [
+      "based",
+      4035
+    ],
+    [
+      "outreach",
+      4021
+    ],
+    [
+      "blogs",
+      4001
+    ],
+    [
+      "technology",
+      3982
+    ],
+    [
+      "applications",
+      3977
+    ],
+    [
+      "web",
+      3963
+    ],
+    [
+      "companies",
+      3930
+    ],
+    [
+      "groups",
+      3900
+    ],
+    [
+      "professor",
+      3896
+    ],
+    [
+      "like",
+      3778
+    ],
+    [
+      "two",
+      3776
+    ],
+    [
+      "policies",
+      3772
+    ],
+    [
+      "degrees",
+      3717
+    ]
+  ],
+  "subdomains": {
+    "accessibility.ics.uci.edu": 5,
+    "acoi.ics.uci.edu": 72,
+    "archive-beta.ics.uci.edu": 6,
+    "archive.ics.uci.edu": 143,
+    "asterix.ics.uci.edu": 5,
+    "betapro.proteomics.ics.uci.edu": 2,
+    "capstone.cs.uci.edu": 8,
+    "cdb.ics.uci.edu": 28,
+    "cert.ics.uci.edu": 6,
+    "chenli.ics.uci.edu": 8,
+    "cloudberry.ics.uci.edu": 23,
+    "cml.ics.uci.edu": 58,
+    "code.ics.uci.edu": 13,
+    "computableplant.ics.uci.edu": 30,
+    "courselisting.ics.uci.edu": 5,
+    "create.ics.uci.edu": 5,
+    "cs.ics.uci.edu": 10,
+    "cs.uci.edu": 1,
+    "cwicsocal18.ics.uci.edu": 7,
+    "cyberclub.ics.uci.edu": 9,
+    "cybert.ics.uci.edu": 23,
+    "dgillen.ics.uci.edu": 9,
+    "ds4all.ics.uci.edu": 1,
+    "duttgroup.ics.uci.edu": 32,
+    "dynamo.ics.uci.edu": 21,
+    "edgelab.ics.uci.edu": 6,
+    "emj.ics.uci.edu": 25,
+    "evoke.ics.uci.edu": 1,
+    "flamingo.ics.uci.edu": 9,
+    "fr.ics.uci.edu": 3,
+    "futurehealth.ics.uci.edu": 131,
+    "grape.ics.uci.edu": 74,
+    "graphics.ics.uci.edu": 4,
+    "graphmod.ics.uci.edu": 1,
+    "hai.ics.uci.edu": 4,
+    "hobbes.ics.uci.edu": 9,
+    "hpi.ics.uci.edu": 5,
+    "hub.ics.uci.edu": 1,
+    "i-sensorium.ics.uci.edu": 4,
+    "icde2023.ics.uci.edu": 37,
+    "ics.uci.edu": 208,
+    "industryshowcase.ics.uci.edu": 19,
+    "informatics.ics.uci.edu": 1,
+    "informatics.uci.edu": 2,
+    "insite.ics.uci.edu": 8,
+    "ipubmed.ics.uci.edu": 1,
+    "isg.ics.uci.edu": 237,
+    "jgarcia.ics.uci.edu": 37,
+    "julia-hub.ics.uci.edu": 1,
+    "luci.ics.uci.edu": 4,
+    "mailman.ics.uci.edu": 11,
+    "mcs.ics.uci.edu": 10,
+    "mdogucu.ics.uci.edu": 1,
+    "mds.ics.uci.edu": 8,
+    "mhcid.ics.uci.edu": 16,
+    "mlphysics.ics.uci.edu": 2,
+    "motifmap.ics.uci.edu": 1,
+    "mswe.ics.uci.edu": 7,
+    "mupro.proteomics.ics.uci.edu": 2,
+    "nalini.ics.uci.edu": 5,
+    "ngs.ics.uci.edu": 1571,
+    "oai.ics.uci.edu": 5,
+    "psearch.ics.uci.edu": 1,
+    "redmiles.ics.uci.edu": 1,
+    "riscit.ics.uci.edu": 2,
+    "scale.ics.uci.edu": 6,
+    "scratch.proteomics.ics.uci.edu": 3,
+    "seal.ics.uci.edu": 42,
+    "selectpro.proteomics.ics.uci.edu": 4,
+    "sherlock.ics.uci.edu": 6,
+    "speedtest.ics.uci.edu": 1,
+    "stairs.ics.uci.edu": 4,
+    "stat.ics.uci.edu": 9,
+    "stat.uci.edu": 2,
+    "statconsulting.ics.uci.edu": 1,
+    "student-council.ics.uci.edu": 1,
+    "summeracademy.ics.uci.edu": 5,
+    "swiki.ics.uci.edu": 88,
+    "tad.ics.uci.edu": 1,
+    "tastier.ics.uci.edu": 1,
+    "tutoring.ics.uci.edu": 5,
+    "unite.ics.uci.edu": 10,
+    "vision.ics.uci.edu": 190,
+    "wics.ics.uci.edu": 901,
+    "wiki.ics.uci.edu": 37,
+    "www-db.ics.uci.edu": 19,
+    "www.ics.uci.edu": 1527,
+    "www.informatics.ics.uci.edu": 1,
+    "www.informatics.uci.edu": 809,
+    "www.stat.uci.edu": 91,
+    "xtune.ics.uci.edu": 3
+  }
+}
